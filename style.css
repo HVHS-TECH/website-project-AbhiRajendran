@@ -1,0 +1,23 @@
+body 
+{background-color:  #212b2a;}
+
+
+h1 
+{ text-align: center;
+color: whitesmoke;}
+
+nav{
+text-align: center;
+background-color: whitesmoke;    
+padding: 10px;
+gap:10px;
+}
+
+a:link{
+color:darkgreen;    
+}
+
+a:visited{
+color:lightgreen
+
+}
