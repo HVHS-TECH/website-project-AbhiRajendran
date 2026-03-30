@@ -3,10 +3,12 @@ body
 
 
 header 
-{ text-align:justify;
+{ text-align:center;
 color: whitesmoke;
 font-size: 25px;
+background-color: red;
 }
+
 
 nav{
 background-color:whitesmoke ;    
@@ -55,6 +57,7 @@ color: whitesmoke;
 .container div.header {
   grid-area: header;
   text-align: center;
+
 }
 .container div.nav {
   grid-area: nav;
@@ -67,4 +70,3 @@ color: whitesmoke;
   grid-area: footer;
   text-align: center;  
 }
-
