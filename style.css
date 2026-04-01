@@ -6,7 +6,15 @@ header
 { text-align:center;
 color: whitesmoke;
 font-size: 25px;
-background-color: red;
+}
+
+h1{
+    margin: 0;
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: YatraOne;
 }
 
 
@@ -69,4 +77,9 @@ color: whitesmoke;
 .container div.footer {
   grid-area: footer;
   text-align: center;  
+}
+
+@font-face {
+  font-family: YatraOne; 
+  src: url(https://fonts.google.com/specimen/Yatra+One); 
 }
