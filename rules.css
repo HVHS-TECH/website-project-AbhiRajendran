@@ -39,8 +39,12 @@ main{
 color: whitesmoke;
 }
 
-footer{
-color: whitesmoke;
+footer {
+  color: darkgreen;
+  background-color: whitesmoke;
+  padding: 1px;
+  border: whitesmoke;
+  border-radius: 15px;
 }
 
 .container {
