@@ -44,6 +44,10 @@ main {
   color: whitesmoke;
 }
 
+img{
+ border-radius: 5px;  
+}
+
 footer {
   color: darkgreen;
   background-color: whitesmoke;
@@ -86,6 +90,11 @@ footer {
 
 .container div.main {
   grid-area: main;
+}
+
+.container div.img {
+  grid-area: img;
+  text-align: center;
 }
 
 .container div.footer {
