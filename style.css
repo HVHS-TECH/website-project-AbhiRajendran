@@ -12,7 +12,7 @@ header {
 h1 {
   margin: 0;
   position: absolute;
-  top: 7%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -23,29 +23,25 @@ color: whitesmoke;
 }
 
 nav {
-  background-color: whitesmoke;
-  text-align: center;
-  padding: 15px;
-  border: whitesmoke;
-  border-radius: 15px;
+background-color: whitesmoke;
+text-align: center;
+padding: 15px;
+border: whitesmoke;
+border-radius: 15px;
 }
 
 a:link {
-  color: darkgreen;
-  font-size: 25px;
-  margin: 15px;
+color: darkgreen;
+font-size: 25px;
+margin: 15px;
 }
 
 a:visited {
-  color: darkgreen;
+color: darkgreen;
 }
 
 main {
-  color: whitesmoke;
-}
-
-img{
- border-radius: 5px;  
+color: whitesmoke;
 }
 
 footer {
@@ -85,16 +81,17 @@ footer {
 
 .container div.nav {
   grid-area: nav;
-
-}
-
-.container div.main {
-  grid-area: main;
 }
 
 .container div.img {
   grid-area: img;
-  text-align: center;
+  display: flex;            
+  justify-content: center;    
+  gap: 100px;              
+}
+
+.container div.main {
+  grid-area: main;
 }
 
 .container div.footer {
