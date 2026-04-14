@@ -9,11 +9,29 @@ font-size: 25px;
 }
 
 h1{
-    margin: 0;
+  margin: 0;
   position: absolute;
-  top: 7%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+h2{
+border: 3px solid whitesmoke;
+padding: 10px;
+border-radius: 15px;
+color: whitesmoke;
+}
+
+main{
+border: 3px solid whitesmoke;
+padding: 10px;
+border-radius: 15px;
+}
+
+p{
+font-size: 20px;
+color: whitesmoke;
 }
 
 
@@ -23,11 +41,11 @@ text-align: center;
 padding: 15px;
 border: whitesmoke;
 border-radius: 15px;
-}
-
-a:link{
 color:darkgreen;
 font-size: 25px;    
+}
+
+a:link{   
 margin: 15px;
 }
 
