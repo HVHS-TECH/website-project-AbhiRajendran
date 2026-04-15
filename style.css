@@ -19,7 +19,9 @@ h1 {
 
 p{
 font-size: 20px;
-color: whitesmoke;
+border: 3px solid whitesmoke;
+padding: 10px;
+border-radius: 15px;
 }
 
 nav {
@@ -58,7 +60,7 @@ footer {
     "logo header"
     "nav nav"
     "main main"
-    "img img"
+    "img img"   
     "footer footer";
   grid-template-columns: 1fr 3fr;
   gap: 3px;
