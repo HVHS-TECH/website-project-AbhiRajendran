@@ -23,6 +23,13 @@ padding: 10px;
 border-radius: 15px;
 }
 
+h2{
+border: 3px solid whitesmoke;
+padding: 10px;
+border-radius: 15px;
+text-align: center;
+}
+
 ul{
 font-size: 20px;
 border: 3px solid whitesmoke;
@@ -71,6 +78,7 @@ footer {
     "logo header"
     "nav nav"
     "main main"
+    "video video"
     "footer footer";
   grid-template-columns: 1fr 3fr;
   gap: 3px;
@@ -94,6 +102,13 @@ footer {
 }
 .container div.main {
   grid-area: main;
+}
+
+.container div.video {
+  grid-area: img;
+  display: flex;            
+  justify-content: center;    
+  gap: 50px;              
 }
 .container div.footer {
   grid-area: footer;
